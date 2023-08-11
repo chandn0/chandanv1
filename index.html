@@ -129,6 +129,17 @@
 			-webkit-box-direction: normal;
 			flex-direction: column;
 		}
+		.btn-group button {
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
 
 		@media (max-width: 600px) {
 			.column-section-main {
@@ -387,7 +398,16 @@
 		<p class="techstack">
 			Tech Stack : Solidity, Ether.js, Web3.js, Next.js, React.js, HTML, CSS </p>
 			<br/>
+			<div class="btn-group">
+			<a href="#Articles">| Articles |</a>
+    <a href="#Tutorials">| Tutorials |</a>
+    <a href="#Workexperience">| Work Experience |</a>
+    <a href="#Projects">| Projects |</a>
+</div>
+<br/>
+<br/>
 		<div class="dottedline"></div>
+
 		<!-- &#x2193;
 		&#x2193;
 		&#x2193; -->
@@ -396,81 +416,7 @@
 	<section class="section column-section-main"> -->
 		<div>
 			<br/>
-			<h2 class="main-text"> 👨‍💻 Work Experience</h2>
-			<dl class="list">
-				<dd class="list-item">
-					<a class="list-link" href="https://www.buildbear.io/" target="_blank">BuildBear</a><br>
-					- Community Builder: Writen Tutorials, Hosted Workshops.
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://www.appavengers.co/" target="_blank">Appavengers</a>--3 Months
-					<br>
-					- Blockchain Developer: Smart contract development and frontend integration.
-				</dd>
-				<dd class="list-item">
-					<a class="list-link"
-						href="https://opensea.io/assets/matic/0x931204fb8cea7f7068995dce924f0d76d571df99/134"
-						target="_blank">Vagobond Magazine 9</a>
-					<br>
-					- Content Writer: Authored article on Crypto Wallet Safety.
-				</dd>
-				<dd class="list-item">
-
-					<a class="list-link" href="http://tiar.io" target="_blank">Tiar</a>-- 3 Months<br>
-					- Community Builder: Hosted Twitter spaces to boost project awareness.
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://retronev.in/" target="_blank">Retron EV</a>-- 3 Months<br>
-					- Design Engineer: Specialized in Lithium-ion battery design and manufacturing processes.
-				</dd>
-				<br>
-
-			</dl>
-			<div class="dottedline"></div>
-			<br />
-
-			<h2 class="main-text "> 🏗️ Projects</h2>
-			<dl class="list">
-				<dd class="list-item">
-					<a class="list-link" href="https://web3wiki-v2.vercel.app/" target="_blank">Web3 version of
-						Wikipedia </a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/chandn0/Ecommerce-Website" target="_blank">Ecommerce
-						website</a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/chandn0/Fait_crypto_bridge" target="_blank">P2P bridge
-						between fiat and crypto</a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/ERC-6551"
-						target="_blank"> Token Bound Accounts(TBA) using ERC-6551</a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/Voting"
-						target="_blank">Voting Smart Contract </a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/NFTMarketplace"
-						target="_blank"> NFT Marketplace</a>
-				</dd>
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/Ai-mint"
-						target="_blank"> AI Mint</a>
-				</dd>
-
-				<dd class="list-item">
-					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/RentableNFTs"
-						target="_blank">Rentable NFTs</a>
-				</dd>
-
-			</dl>
-			<br />
-			<div class="dottedline"></div>
-
-			<br />
-			<h2 class="main-text"> 📰 Articles</h2>
+			<h2 id="Articles" class="main-text"> 📰 Articles</h2>
 			<dl class="list">
 				<dd>
 					<a href="https://mirror.xyz/0x50c88219BfE7A1D9Cba74C4c702E30AfCa24679c/7-mW4UI9noU-OfVmIbpcv_md-PelL8fdqETI6wWoXy4"
@@ -520,7 +466,84 @@
 			<br />
 			<div class="dottedline"></div>
 			<br />
-			<h2 class="main-text"> 📰 Tutorial Articles</h2>
+
+			<h2 id="Workexperience" class="main-text"> 👨‍💻 Work Experience</h2>
+			<dl class="list">
+				<dd class="list-item">
+					<a class="list-link" href="https://www.buildbear.io/" target="_blank">BuildBear</a><br>
+					- Community Builder: Writen Tutorials, Hosted Workshops.
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://www.appavengers.co/" target="_blank">Appavengers</a>--3 Months
+					<br>
+					- Blockchain Developer: Smart contract development and frontend integration.
+				</dd>
+				<dd class="list-item">
+					<a class="list-link"
+						href="https://opensea.io/assets/matic/0x931204fb8cea7f7068995dce924f0d76d571df99/134"
+						target="_blank">Vagobond Magazine 9</a>
+					<br>
+					- Content Writer: Authored article on Crypto Wallet Safety.
+				</dd>
+				<dd class="list-item">
+
+					<a class="list-link" href="http://tiar.io" target="_blank">Tiar</a>-- 3 Months<br>
+					- Community Builder: Hosted Twitter spaces to boost project awareness.
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://retronev.in/" target="_blank">Retron EV</a>-- 3 Months<br>
+					- Design Engineer: Specialized in Lithium-ion battery design and manufacturing processes.
+				</dd>
+				<br>
+
+			</dl>
+			<div class="dottedline"></div>
+			<br />
+
+			<h2 id="Projects" class="main-text "> 🏗️ Projects</h2>
+			<dl class="list">
+				<dd class="list-item">
+					<a class="list-link" href="https://web3wiki-v2.vercel.app/" target="_blank">Web3 version of
+						Wikipedia </a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/chandn0/Ecommerce-Website" target="_blank">Ecommerce
+						website</a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/chandn0/Fait_crypto_bridge" target="_blank">P2P bridge
+						between fiat and crypto</a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/ERC-6551"
+						target="_blank"> Token Bound Accounts(TBA) using ERC-6551</a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/Voting"
+						target="_blank">Voting Smart Contract </a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/NFTMarketplace"
+						target="_blank"> NFT Marketplace</a>
+				</dd>
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/Ai-mint"
+						target="_blank"> AI Mint</a>
+				</dd>
+
+				<dd class="list-item">
+					<a class="list-link" href="https://github.com/BuildBearLabs/Tutorials/tree/main/RentableNFTs"
+						target="_blank">Rentable NFTs</a>
+				</dd>
+
+			</dl>
+			<br />
+			<div class="dottedline"></div>
+
+			<br />
+
+			
+			<h2 id="Tutorials"class="main-text"> 📰 Tutorial Articles</h2>
 			<dl class="list">
 				<dd>
 					<a href="https://www.buildbear.io/resources/guides-and-tutorials/Building_an_NFT_Lottery"
